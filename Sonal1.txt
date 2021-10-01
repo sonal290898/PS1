@@ -1,0 +1,8 @@
+r = input('enter radius  in cm');
+rad=r*10^(-2);
+D=input('Enter distance between conductors in m:');
+r=rad*0.7788;
+L=2*10^(-7)*log(D/r);
+C=(2*pi*8.854*10^(-12))/(log(D/rad));
+fprintf('\n Value of inductance = %f\n',L);
+fprintf(' \n Value of capacitance =%f\n',C);
